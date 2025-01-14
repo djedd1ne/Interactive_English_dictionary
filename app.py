@@ -13,7 +13,7 @@ def translate (word):
             return data[get_close_matches(word, data.keys())[0]]
         elif yn == "N":
             return "The word doesn't exist."
-        else
+        else:
             return "We did not understand your query"
     else:
         return "The word doesn't exist."
